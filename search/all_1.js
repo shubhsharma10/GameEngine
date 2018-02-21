@@ -11,6 +11,5 @@ var searchData=
   ['brick_2eh',['Brick.h',['../_brick_8h.html',1,'']]],
   ['brick_5fheight',['BRICK_HEIGHT',['../_game_object_8h.html#a885aa654e3f869d7d9d2736b0debcbfb',1,'GameObject.h']]],
   ['brick_5fwidth',['BRICK_WIDTH',['../_game_object_8h.html#a15bd1a7109dfbc9c82dc540bfd227608',1,'GameObject.h']]],
-  ['bricks_5fin_5fa_5frow',['BRICKS_IN_A_ROW',['../_manager_header_8h.html#a1901e8f2b4de7d5e8a399a836f2d189a',1,'BRICKS_IN_A_ROW():&#160;ManagerHeader.h'],['../_manager_8cpp.html#a1901e8f2b4de7d5e8a399a836f2d189a',1,'BRICKS_IN_A_ROW():&#160;Manager.cpp']]],
-  ['breakout_20_2d_20part_201',['Breakout - Part 1',['../md__f_1__n_e_u__spring18__game_engine_assignment-1-breakout-team10__part1__r_e_a_d_m_e.html',1,'']]]
+  ['bricks_5fin_5fa_5frow',['BRICKS_IN_A_ROW',['../_manager_header_8h.html#a1901e8f2b4de7d5e8a399a836f2d189a',1,'BRICKS_IN_A_ROW():&#160;ManagerHeader.h'],['../_manager_8cpp.html#a1901e8f2b4de7d5e8a399a836f2d189a',1,'BRICKS_IN_A_ROW():&#160;Manager.cpp']]]
 ];

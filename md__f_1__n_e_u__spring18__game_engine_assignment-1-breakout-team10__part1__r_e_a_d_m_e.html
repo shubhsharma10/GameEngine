@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Breakout: Breakout - Part 1</title>
+<title>Breakout: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,94 +63,13 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">Breakout - Part 1 </div>  </div>
+<div class="title">README </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="image">
-<img src="./../Media/Nolan_Bushnell_2013.jpg" align="right" width="150px"/>
-</div>
-<p> Welcome to our first game project! This is the first in a series of 3 Breakout Assignments! But this assignment does not come to us for free&ndash;we are under contract! Nolan Busnell(<a href="https://en.wikipedia.org/wiki/Nolan_Bushnell">https://en.wikipedia.org/wiki/Nolan_Bushnell</a>) himself has contracted us to build a more powerful version of his 1976 arcade class game! He thinks we could have some success by recreating and distributing the game in Boston, Massachusetts.</p>
-<p>Now it is time to get organized and start building the game!</p>
-<h2>Step 1 play the game!</h2>
-<div class="image">
-<img src="./../Media/breakout.png" align="left" width="250px"/>
-</div>
-<p> The first part of this assignment is to play the game here: <a href="https://www.atari.com/arcade#!/arcade/superbreakout/play">https://www.atari.com/arcade#!/arcade/superbreakout/play</a> There are many versions of the game, and I encourage you to be creative. The basic premise is a ball, a paddle, and bricks that are destroyed when they are hit.</p>
-<p>The history of the game itself is quite interesting and worth reading as insipiring game programmers!</p>
+<div class="textblock"><p>Main Page {#mainpage}</p>
+<h2>Breakout Game</h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Breakout_(video_game)">https://en.wikipedia.org/wiki/Breakout_(video_game)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Arkanoid">https://en.wikipedia.org/wiki/Arkanoid</a></li>
-</ul>
-<h2>Step 2 - Form a team!</h2>
-<p><a href="https://docs.google.com/spreadsheets/d/1bglePE3sfvoe5yCSCp8BKBt8lg0e9SQcGptQPyVkkTU/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1bglePE3sfvoe5yCSCp8BKBt8lg0e9SQcGptQPyVkkTU/edit?usp=sharing</a></p>
-<p>Make sure you form a team! (If you are reading this, make sure your teammates join your same repository)</p>
-<h2>Our technology stack</h2>
-<p>Nolan has decided that you will be using the following technology stack:</p>
-<ul>
-<li>Modern C++ (11/14/17)</li>
-<li>SDL library</li>
-</ul>
-<p>Nolan prefers these tools because SDL is an industry standard, cross platform, and using C++ will give us some additional speed.</p>
-<p>Right now, Nolan wants us to produce the game quickly however, as demand is high for this title!</p>
-<h2>Project Hieararchy</h2>
-<p>In the future, other engineers may take on our project, so we'll have to keep it organized given the following requirements below. Forming some good habits now will help us later on when our project grows.</p>
-<p>Game</p>
-<ul>
-<li>Docs &ndash; Source Code Documentation</li>
-<li>Assets &ndash; Art assets (With the Sub directories music, sound, images, and anything else)</li>
-<li>src &ndash; source code(.cpp files) The make file or any build scripts that automate the building of your project should reside here.</li>
-<li>include &ndash; header files(.h files)</li>
-<li>lib &ndash; libraries (.so, .dll, .a, .dylib files). Note this is a good place to put SDL</li>
-<li>temp &ndash; This is the directory where your built executable(.exe for windows, .app for Mac, or a.out for Linux) and any additional generated files are put after each build.</li>
-<li>Game &ndash; Your final deliverable. One should be able to copy and paste this directory, and only this directory onto another machine and be able to run the game.</li>
-<li>ThirdParty - Code that you have not written if any.</li>
-</ul>
-<p>Note that src should only contain ".cpp" or ".h" files. Why? It makes it very fast to do a backup of your src directory as one example. Secondly, binary files that are generated often clutter up directories. I should not see any binaries in your repository.</p>
-<h2>Game Requirements</h2>
-<p>The breakout game you are building in part 1 has the following requirements.</p>
-<ul>
-<li>There is at least one level with blue bricks with 4 rows of 12 bricks.</li>
-<li>The User interface displays the number of "lives" available (3 to start)</li>
-<li>The User interface displays the score, correlating to how many bricks have been removed</li>
-<li>You have a paddle, that is controlled with either:<ul>
-<li>The left and right arrow keys (To move the paddle left and right respectively)</li>
-<li>'a' and 'd' keys (To move the paddle left and right respectively)</li>
-</ul>
-</li>
-<li>When the ball collides with the paddle, it should change velocity in the opposite direction.<ul>
-<li>You may choose to make use of, or add to your TinyMath.h to handle things like collision, Vectors of different dimensions, etc.</li>
-<li>A sound clip should play</li>
-</ul>
-</li>
-<li>When the user hits 'q' the program terminates.</li>
-<li>When all blocks are removed, the game should pause and display "You win!" (Or something equally enthusiastic).</li>
-<li>If all lives are lost, the game should pause and display "You Lose!" (Or something equally sad).</li>
-<li>There should be a music track looping in the background.</li>
-</ul>
-<p>Beyond those requirements, you may get as creative as you like.</p>
-<p>Tips:</p><ul>
-<li>Think about good object-oriented programming style<ul>
-<li>(Nolan Bushnell changes his mind a lot&ndash;because the game industry moves fast! I wonder what will happen in part 2?)</li>
-</ul>
-</li>
-<li>Special effects and cool features are encouraged!</li>
-</ul>
-<h2>Rubric (5% of overall grade)</h2>
-<ul>
-<li>(50%) The Game requirements should be met above.</li>
-<li>(50%) The game should feel polished</li>
-</ul>
-<h2>More Resources</h2>
-<ul>
-<li><a href="https://wiki.libsdl.org/APIByCategory">https://wiki.libsdl.org/APIByCategory</a></li>
-<li>Free sound effects<ul>
-<li><a href="https://assetstore.unity.com/packages/audio/sound-fx/free-sound-fx-31837">https://assetstore.unity.com/packages/audio/sound-fx/free-sound-fx-31837</a></li>
-</ul>
-</li>
-<li>Free breakout graphics<ul>
-<li><a href="https://assetstore.unity.com/packages/templates/packs/2d-breakout-example-project-107757">https://assetstore.unity.com/packages/templates/packs/2d-breakout-example-project-107757</a> </li>
-</ul>
-</li>
+<li>Hello man </li>
 </ul>
 </div></div><!-- contents -->
 <!-- start footer part -->

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['paddle',['Paddle',['../class_paddle.html',1,'']]],
-  ['point',['Point',['../struct_point.html',1,'']]]
+  ['mainmenu',['MainMenu',['../class_main_menu.html',1,'']]]
 ];
