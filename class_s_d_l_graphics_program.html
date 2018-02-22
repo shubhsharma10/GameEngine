@@ -104,8 +104,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aafe192d33fb5baeb5398a941bb8eafbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91179010dbfeff3135458188ed4ab931"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_d_l_graphics_program.html#a91179010dbfeff3135458188ed4ab931">bgInit</a> (SDL_Renderer *ren)</td></tr>
 <tr class="separator:a91179010dbfeff3135458188ed4ab931"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a52ff170c94b321c440ae124e9ce21d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_d_l_graphics_program.html#a4a52ff170c94b321c440ae124e9ce21d">renderMessage</a> (int, char, SDL_Renderer *)</td></tr>
-<tr class="separator:a4a52ff170c94b321c440ae124e9ce21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa79aaa549e444a3493d885d555bea1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_d_l_graphics_program.html#aa79aaa549e444a3493d885d555bea1c5">renderMessage</a> (int level, char status, SDL_Renderer *)</td></tr>
+<tr class="separator:aa79aaa549e444a3493d885d555bea1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fe75d59cda5552771780cfa7a357860"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_d_l_graphics_program.html#a3fe75d59cda5552771780cfa7a357860">reset</a> ()</td></tr>
 <tr class="separator:a3fe75d59cda5552771780cfa7a357860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -179,6 +179,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method to initialize the background image </p>
 
 </div>
 </div>
@@ -261,6 +262,19 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method to create bricks orientation for each level </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>to indicate the level </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rows to indicate the number of rows required</dd></dl>
+<p>Method to randomly create brick orientations based on </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>and  </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -400,11 +414,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method to render the background image </p>
 
 </div>
 </div>
-<a id="a4a52ff170c94b321c440ae124e9ce21d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a52ff170c94b321c440ae124e9ce21d">&#9670;&nbsp;</a></span>renderMessage()</h2>
+<a id="aa79aaa549e444a3493d885d555bea1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79aaa549e444a3493d885d555bea1c5">&#9670;&nbsp;</a></span>renderMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -434,6 +449,20 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method to render level transition messages on the screen </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>to indicate which level </td></tr>
+    <tr><td class="paramname">status</td><td>to indicate start or complete</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Method to render messages during level transitions </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>indicates the level </td></tr>
+    <tr><td class="paramname">status</td><td>indicates the status of the transition </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -451,6 +480,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method to reset the the flags</p>
+<p>Method to reset everything so that it loops back to main menu after game over or if the game is beaten </p>
 
 </div>
 </div>
