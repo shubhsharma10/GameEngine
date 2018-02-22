@@ -98,10 +98,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a378309527307f5442be90313771329a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ae16550a3735eaeb8ea7ab12594c2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#a15ae16550a3735eaeb8ea7ab12594c2f">getCred</a> ()</td></tr>
 <tr class="separator:a15ae16550a3735eaeb8ea7ab12594c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece557f6b948e48f121e4f8a6d8f2ab6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#aece557f6b948e48f121e4f8a6d8f2ab6">setCred</a> (bool)</td></tr>
-<tr class="separator:aece557f6b948e48f121e4f8a6d8f2ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e25584cdc524f88b68b1087be15f77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#a59e25584cdc524f88b68b1087be15f77">setInst</a> (bool)</td></tr>
-<tr class="separator:a59e25584cdc524f88b68b1087be15f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9076c12ec85ef48bfe9c749beab99f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#ab9076c12ec85ef48bfe9c749beab99f2">setCred</a> (bool v)</td></tr>
+<tr class="separator:ab9076c12ec85ef48bfe9c749beab99f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2baf452b5e4bce1e6eed813d171e67f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#ad2baf452b5e4bce1e6eed813d171e67f">setInst</a> (bool v)</td></tr>
+<tr class="separator:ad2baf452b5e4bce1e6eed813d171e67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68937c546a1f51ac06fcc8c26ca3320c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#a68937c546a1f51ac06fcc8c26ca3320c">getLang</a> ()</td></tr>
 <tr class="separator:a68937c546a1f51ac06fcc8c26ca3320c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd80bf668a64e754955a3f3a1f10c2d"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_menu.html#abfd80bf668a64e754955a3f3a1f10c2d">getLangChosen</a> ()</td></tr>
@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get status of whether credit option is selected or not </p>
 
 </div>
 </div>
@@ -182,6 +183,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get status of instruction viewed </p>
 
 </div>
 </div>
@@ -199,6 +201,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get status of language selected </p>
 
 </div>
 </div>
@@ -216,6 +219,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get language selected </p>
 
 </div>
 </div>
@@ -233,6 +237,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get status of whether we are on main menu screen or not </p>
 
 </div>
 </div>
@@ -250,6 +255,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get game quit status </p>
 
 </div>
 </div>
@@ -267,6 +273,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to get game start status </p>
 
 </div>
 </div>
@@ -301,6 +308,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to initialize main menu screen </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">w</td><td>width of screen </td></tr>
+    <tr><td class="paramname">h</td><td>height of screen </td></tr>
+    <tr><td class="paramname">ren</td><td>Renderer used to render screen </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -319,6 +334,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to reset arrow position </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>units by which arrow should be shifted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -337,6 +358,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to render main menu screen </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ren</td><td>Renderer used to render screen </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -355,6 +382,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to render main menu screen in respective language </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ren</td><td>Renderer used to render screen </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -395,6 +428,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to render text </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>string to render </td></tr>
+    <tr><td class="paramname">x</td><td>render at x coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>render at y coordinate </td></tr>
+    <tr><td class="paramname">ren</td><td>Renderer used to render screen </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -412,11 +454,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to reset main menu to default setting </p>
 
 </div>
 </div>
-<a id="aece557f6b948e48f121e4f8a6d8f2ab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aece557f6b948e48f121e4f8a6d8f2ab6">&#9670;&nbsp;</a></span>setCred()</h2>
+<a id="ab9076c12ec85ef48bfe9c749beab99f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9076c12ec85ef48bfe9c749beab99f2">&#9670;&nbsp;</a></span>setCred()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -430,11 +473,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to set status of credit option </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>true if credit option is selected </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="a59e25584cdc524f88b68b1087be15f77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59e25584cdc524f88b68b1087be15f77">&#9670;&nbsp;</a></span>setInst()</h2>
+<a id="ad2baf452b5e4bce1e6eed813d171e67f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2baf452b5e4bce1e6eed813d171e67f">&#9670;&nbsp;</a></span>setInst()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,6 +497,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to set status of instruction option </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>true if instruction option is selected </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -466,6 +521,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to update main menu screen based on key press </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>character passed based on key press </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -484,6 +545,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Method used to select language out of all possible options </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>character passed based on key press </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
